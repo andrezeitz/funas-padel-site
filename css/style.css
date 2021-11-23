@@ -12,8 +12,10 @@ body {
 }
 
 p {
-    margin: 0.5rem !important;
+    margin: 0.25rem 0 0.25rem 0 !important;
 }
+
+/* Nav Bar */
 
 .logo-pic {
     width: 100%;
@@ -50,8 +52,10 @@ p {
     opacity: 0.9;
 }
 
+/* News */
+
 .news {
-    padding: 5% 20% 5% 20%;
+    padding: 3% 20% 3% 20%;
 }
 
 .pic1,
@@ -59,9 +63,11 @@ p {
 .pic3,
 .pic4 {
     width: 100%;
-    padding: 5px 0 5px 0;
-    border-radius: 5px;
+    padding: 8px 0 8px 0;
+    border-radius: 7%;
 }
+
+/* Padel */
 
 .padel-header {
     align-items: center;
@@ -71,19 +77,67 @@ p {
     width: 100%;
 }
 
-.contact-topic,
-.owner {
-    margin-top: 2rem;
+.playtomic-text {
+    padding-left: 5rem;
 }
 
+.btn-playtomic {
+    padding: 15px;
+    margin-top: 1rem;
+    border-radius: 30px;
+}
+
+/* Contact */
+
+.owner {
+    margin-top: 1rem;
+}
+
+.contact-info {
+    margin-left: 3rem;
+}
+
+.mail {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.fa-phone,
+.fa-envelope {
+    color: blue;
+    font-size: 18px;
+}
+
+.fa-user-tie {
+    color: blue;
+    font-size: 20px;
+}
+
+.logo-contact {
+    width: 250px;
+    height: 250px;
+}
+
+.fa-facebook,
+.fa-instagram {
+    font-size: 40px;
+    margin: 5px
+}
+
+
+.center-social {
+    
+}
+/* Footer */
 
 footer {
     flex-shrink: 0;
     width: 100%;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
-    border-top: 1px solid black;
     margin-bottom: 2px;
 }
 
