@@ -218,6 +218,9 @@ ul {
     .contact-info {
         padding-left: 2rem;
     }
+    .news {
+        padding: 3% 10% 3% 10%;
+    }
 
     .hero-picture {
         height: 400px;
