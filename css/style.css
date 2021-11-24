@@ -32,8 +32,9 @@ p {
     text-transform: uppercase;
 }
 
-.nav-link:hover {
-    color: green !important;
+.nav-link:hover,
+.nav-link:active {
+    color: #0d6efd !important;
 }
 
 .nav-button {
@@ -42,6 +43,7 @@ p {
     margin-right: 10px;
     padding: 10px;
     text-transform: uppercase;
+    border-radius: 30px;
 }
 
 /* Hero Picture  */
@@ -59,14 +61,21 @@ p {
 }
 
 .pic1,
-.pic2,
-.pic3,
-.pic4 {
-    width: 100%;
-    padding: 8px 0 8px 0;
-    border-radius: 7%;
+.pic3
+{
+    width: 80%;
+    border-radius: 20%;
+    margin-left: 6rem;
+    padding: 5px 0 5px 0
 }
 
+.pic2,
+.pic4 {
+    width: 80%;
+    border-radius: 20%;
+    margin-right: 6rem;
+    padding: 5px 0 5px 0
+}
 /* Padel */
 
 .padel-header {
@@ -78,7 +87,7 @@ p {
 }
 
 .playtomic-text {
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
 
 .btn-playtomic {
@@ -93,6 +102,9 @@ p {
     margin-top: 1rem;
 }
 
+.owner2 {
+    margin-top: 0.8rem !important;
+}
 .contact-info {
     margin-left: 3rem;
 }
@@ -106,16 +118,17 @@ p {
 
 .fa-phone,
 .fa-envelope {
-    color: blue;
+    color: #0d6efd;
     font-size: 18px;
 }
 
 .fa-user-tie {
-    color: blue;
+    color: #0d6efd;;
     font-size: 20px;
 }
 
 .logo-contact {
+    margin-top: 1rem;
     width: 250px;
     height: 250px;
 }
@@ -123,13 +136,15 @@ p {
 .fa-facebook,
 .fa-instagram {
     font-size: 40px;
-    margin: 5px
+    margin: 5px;
+    color: white;
 }
 
-
-.center-social {
-    
+.fa-facebook:hover,
+.fa-instagram:hover {
+    color: #0d6efd;
 }
+
 /* Footer */
 
 footer {
@@ -143,11 +158,77 @@ footer {
 
 .contact-title {
     align-items: center;
-    color: #0d6efd;
+    color: white;
     padding-top: 1rem;
 }
 
 ul {
     list-style-type: none;
     padding-right: 2rem;
+}
+
+/* Media */
+@media (max-width:1000px) {
+    .pic1,
+    .pic3,
+    .pic2,
+    .pic4 {
+        width: 100%;
+        border-radius: 20%;
+        padding: 10px 20px 10px 20px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .padel-topic {
+        margin-top: 2rem;
+    }
+
+    .contact-info {
+        padding-left: 12rem;
+    }
+
+    .platsansvarig {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:770px) {
+    .contact-info {
+        padding-left: 6rem;
+    }
+    .logo-pic {
+        height: 60px;
+        width: 200px;
+    }
+    .hero-picture {
+        height: 500px;
+    }
+    .nav-button {
+        position: relative;
+        width: 40%;
+        padding: 8px;
+    }
+    .nav-link {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .contact-info {
+        padding-left: 2rem;
+    }
+
+    .hero-picture {
+        height: 400px;
+    }
+}
+
+@media (max-width:450px) {
+    .contact-info {
+        padding-left: 1rem;
+    }
+    .hero-picture {
+        height: 300px;
+    }
 }
