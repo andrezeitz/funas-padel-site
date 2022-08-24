@@ -43,15 +43,16 @@ p {
     margin-right: 10px;
     padding: 10px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Hero Picture  */
 
 .hero-picture {
-    background: url('/bilder/Rendering\ Funäsdalen_LLENTAB.jpg') no-repeat no-repeat center;
+    background: url('/bilder/image0-1.jpeg') no-repeat no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 600px;
     opacity: 0.9;
 }
 
@@ -59,6 +60,16 @@ p {
 
 .news {
     padding: 3% 20% 3% 20%;
+}
+
+.news-header {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.trivas {
+    font-weight: 600;
 }
 
 /* Padel */
@@ -105,11 +116,13 @@ p {
 .fa-envelope {
     color: #0d6efd;
     font-size: 18px;
+    margin-right: 4px;
 }
 
 .fa-user-tie {
     color: #0d6efd;;
     font-size: 20px;
+    margin-right: 4px;
 }
 
 .logo-contact {
@@ -181,6 +194,7 @@ ul {
         position: relative;
         width: 20%;
         padding: 8px;
+        font-weight: 700;
     }
 }
 
@@ -197,8 +211,10 @@ ul {
     }
     .nav-button {
         position: relative;
-        width: 40%;
+        width: 140px;
         padding: 8px;
+        margin-left: 1rem;
+        font-weight: 700;
     }
     .nav-link {
         margin-left: 20px;
@@ -210,7 +226,17 @@ ul {
         padding-left: 2rem;
     }
     .news {
-        padding: 3% 10% 3% 10%;
+        padding: 5% 5% 5% 5%;
+        text-align: left!important;
+    }
+    .news-header {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .trivas {
+        text-align: center;
+        font-weight: 600;
     }
 
     .hero-picture {
